@@ -1,4 +1,6 @@
-
+* {
+  box-sizing:border-box;
+}
 
 body {
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
@@ -17,15 +19,23 @@ header, nav, section, aside, footer {
 }
 
 header, nav, footer {
-  width: 495px;
-  margin-bottom: 0px;
-  line-height: 175px;
+  width: 100%;
+  /* margin-bottom: 0px; */
+  /* line-height: 175px; */
     /* overflow: auto; */
 }
 
+header, nav {
+padding: 30px;
+margin-bottom: 10px;
+}
+
+nav {
+  padding: 10px;
+}
 section {
-  padding:0px;
-  width: 290px;
+  padding:010px;
+  width: 60%;
   height: 300px;
   float: left;
   }
@@ -57,10 +67,10 @@ section {
 
 
 aside {
-  width: 195px;
+  width: 38%;
   height: 300px;
-  float: left;
-  margin: 0px 10px 10px 10px;
+  float: right;
+  margin: 0px 0px 10px 10px;
   }
 
 footer {
